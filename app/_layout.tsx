@@ -38,6 +38,8 @@ export default function RootLayout() {
             <WebStyleReset />
             <Stack screenOptions={{ headerShown: false }}>
               <Stack.Screen name="index" />
+              <Stack.Screen name="(tabs)" />
+              <Stack.Screen name="label/[id]" />
               <Stack.Screen name="+not-found" />
             </Stack>
             <StatusBar style="auto" />
